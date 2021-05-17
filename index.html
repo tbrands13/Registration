@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+  <header>
+    <h1>Registration Form</h1>
+  </header>
+  <div>
+    <p>First Name:* <input type="text" name="first_name" placeholder="Your first name"></p>
+    <p>Last Name:* <input type="text" name="last_name" placeholder="Your last name"></p>
+    <p>Email Address:* <input type="text" name="email_address" placeholder="Email address"></p>
+    <p>Password:* <input type="password" name="password" placeholder="Enter password"></p>
+    <p>Confirm Password:* <input type="password" name="password" placeholder="Confirm password"></p>
+    <p>Birthday:* <input type="date" name="dob" placeholder="mm/dd/yyy"></p>
+    <p>Gender Identity:</p><br>
+    <input type="radio" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" value="Non-Binary">
+    <label for="Non-Binary">Non-Binary</label>
+    <input type="radio" name="gender" value="I prefer not to answer">
+    <label for="I prefer not to answer">I prefer not to answer</label><br>
+    <p>A short description about myself:</p> <textarea name="comment" cols="20" rows="3"></textarea>
+    <select name="Languages">
+      <option>Python</option>
+      <option>Java</option>
+      <option>Ruby</option>
+    </select>
+    <br>
+    <input type="checkbox" name="offers">
+    <label>Yes, I would like to receive periodic email updates</label><br>
+    <button type="button">Create Account</button>
+    <p>*Indicates a required field</p>
+  </div>
+</body>
+</html>
